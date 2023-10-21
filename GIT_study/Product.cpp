@@ -64,3 +64,16 @@ void Product::showInfo()
 {
 	cout << "Product name: " << this->getName() << "\nDescription: " << this->getDescription() << "\nPrice: " << this->getPrice() << "\n-----------------" << endl;
 }
+
+std::ostream& operator<<(std::ostream& os, const Product& product)
+{
+	os << product.name << " " << product.description << " " << product.price << " " << product.quantity;
+	return os;
+}
+
+std::istream& operator>>(std::istream& is, Product& product)
+{
+	is >> product.name >> product.description >> product.price >> product.quantity;
+
+	return is;
+}

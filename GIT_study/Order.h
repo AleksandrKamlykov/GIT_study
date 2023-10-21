@@ -12,6 +12,7 @@ private:
 	Customer user;
 	Statuses status = NEW;
 public:
+	Order(){}
 	Order(Cart& cart, Customer& user) {
 
 		this->cart = cart;
@@ -23,5 +24,7 @@ public:
 	void getOrderInfo();
 	void setStatus(Statuses status);
 	float getTotalPrice();
+	void pay();
+	void deliver();
 };
 

@@ -129,14 +129,18 @@
   <ItemGroup>
     <ClCompile Include="Cart.cpp" />
     <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="CustomerSystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrderSystem.cpp" />
     <ClCompile Include="Product.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cart.h" />
     <ClInclude Include="Customer.h" />
+    <ClInclude Include="CustomerSystem.h" />
     <ClInclude Include="Order.h" />
+    <ClInclude Include="OrderSystem.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="Statuses.h" />
   </ItemGroup>

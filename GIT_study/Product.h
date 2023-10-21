@@ -32,4 +32,8 @@ public:
 	float getPrice();
 	float getQuantity();
 	void showInfo();
+	friend std::ostream& operator<<(std::ostream& os, const Product& product);
+
+	friend std::istream& operator>>(std::istream& is, Product& product);
+
 };
