@@ -1,0 +1,4 @@
+ClearCode 2;Martin;2023;238y273232983;10
+ClearAgile 2;Martin;2023;238y273232983;10
+ClearCode 2;Martin;2023;238y273232983;10
+ClearAgile 2;Martin;2023;238y273232983;10
